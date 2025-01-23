@@ -57,7 +57,7 @@ void AMovingPlatform::MovePlatformToXAxis(float DeltaTime)
 {
 	FVector newLocation = GetActorLocation();
 
-	if (FVector::Dist(newLocation, StartLocation) > MaxMoveRange)
+	if (FVector::Dist(newLocation, StartLocation) > MoveRange)
 	{
 		MoveSpeed *= -1;
 	}
