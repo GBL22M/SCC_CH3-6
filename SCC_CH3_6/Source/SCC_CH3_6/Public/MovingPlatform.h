@@ -28,8 +28,18 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Setting Values")
 	FVector StartLocation;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Setting Values")
+	float MoveSpeed;		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Setting Values")
-	float MoveSpeed;	
+	float MaxMoveSpeed;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Setting Values")
-	float MaxRange;
+	float MinMoveSpeed;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Setting Values")
+	float MoveRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Setting Values")
+	float MaxMoveRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Setting Values")
+	float MinMoveRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Setting Values")
+	float RandomOffsetRange;
 };
