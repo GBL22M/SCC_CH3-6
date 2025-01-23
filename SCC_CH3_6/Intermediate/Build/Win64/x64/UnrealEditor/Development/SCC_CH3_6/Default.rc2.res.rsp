@@ -83,5 +83,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=SCC_CH3_6
-/fo "E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\UnrealEditor\Development\SCC_CH3_6\Default.rc2.res"
+/fo "E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\UnrealEditor\Development\SCC_CH3_6\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

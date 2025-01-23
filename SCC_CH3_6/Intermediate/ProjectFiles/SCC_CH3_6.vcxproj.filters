@@ -11,6 +11,8 @@
     <None Include="..\..\Source\SCC_CH3_6Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +39,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\SCC_CH3_6\SCC_CH3_6.h">
       <Filter>Source\SCC_CH3_6</Filter>
+    </ClCompile>
+    <Filter Include="Source\SCC_CH3_6\Private">
+      <UniqueIdentifier>{AA085745-BE74-350A-B99F-E5986CFD389E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SCC_CH3_6\Private\MovingPlatform.cpp">
+      <Filter>Source\SCC_CH3_6\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SCC_CH3_6\Private\RotatingPlatform.cpp">
+      <Filter>Source\SCC_CH3_6\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SCC_CH3_6\Public">
+      <UniqueIdentifier>{62D00536-A6BA-3D81-80A9-420E582C7A52}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SCC_CH3_6\Public\MovingPlatform.h">
+      <Filter>Source\SCC_CH3_6\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SCC_CH3_6\Public\RotatingPlatform.h">
+      <Filter>Source\SCC_CH3_6\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

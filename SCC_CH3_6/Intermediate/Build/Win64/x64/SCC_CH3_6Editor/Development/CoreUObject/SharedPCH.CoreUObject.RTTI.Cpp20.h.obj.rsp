@@ -1,4 +1,4 @@
-"E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.cpp"
+"E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.cpp"
 /I "."
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode"
@@ -17,10 +17,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
 /Yc"SharedPCH.CoreUObject.RTTI.Cpp20.h"
-/Fp"E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.pch"
-/Fo"E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj"
-/experimental:log "E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.sarif"
-/sourceDependencies "E:\MY_GAME\UNREAL\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.dep.json"
+/Fp"E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.pch"
+/Fo"E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj"
+/experimental:log "E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.sarif"
+/sourceDependencies "E:\MY_GAME\UNREAL\SCC_Unreal_git\SCC_CH3-6_git\SCC_CH3-6\SCC_CH3_6\Intermediate\Build\Win64\x64\SCC_CH3_6Editor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
