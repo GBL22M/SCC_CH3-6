@@ -72,3 +72,10 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+SCC_CH3_6/.vs
+SCC_CH3_6/Binaries
+SCC_CH3_6/DerivedDataCache
+SCC_CH3_6/Intermediate
+SCC_CH3_6/Saved
+SCC_CH3_6/SCC_CH3_6.sln
