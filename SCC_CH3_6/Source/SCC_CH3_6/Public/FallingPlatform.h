@@ -16,7 +16,10 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	void Disappear();
+	UFUNCTION()
+	void Falling();
+	UFUNCTION()
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Platform|Components")

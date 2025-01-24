@@ -6,18 +6,30 @@ AFallingPlatform::AFallingPlatform()
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
 	SetRootComponent(StaticMesh);
+
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Game/Fantastic_Village_Pack/meshes/props/natural/SM_PROP_hay_06.SM_PROP_hay_06"));
+	if (MeshAsset.Succeeded())
+	{
+		StaticMesh->SetStaticMesh(MeshAsset.Object);
+	}
 }
 
 void AFallingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AFallingPlatform::Disappear, 5.f, false);
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AFallingPlatform::Falling, 5.f, true);
 }
 
-
-void AFallingPlatform::Disappear()
+void AFallingPlatform::Falling()
 {
-	StaticMesh->SetVisibility(false);
-	StaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	//일정 시간 지나면 떨어진다.
+	StaticMesh->SetSimulatePhysics(true);
+}
+
+void AFallingPlatform::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+	Super::NotifyActorBeginOverlap(OtherActor);
+
+	//player 체크
 }
