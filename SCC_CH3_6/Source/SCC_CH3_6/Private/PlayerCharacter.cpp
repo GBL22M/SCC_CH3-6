@@ -7,8 +7,8 @@
 #include "EnhancedInputComponent.h"
 
 APlayerCharacter::APlayerCharacter()
-	:NormalSpeed(600.f)
-	,SprintSpeedMultiplier(1.8f)
+	:NormalSpeed(400.f)
+	,SprintSpeedMultiplier(1.5f)
 	,SprintSpeed(NormalSpeed * SprintSpeedMultiplier)
 { 
 	PrimaryActorTick.bCanEverTick = false;
