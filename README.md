@@ -60,3 +60,7 @@
 
 ### 4. 시연 영상
 https://drive.google.com/file/d/14Xg3E_JziDq19EtCBZUrwNHbYNUNyNUv/view?usp=drive_link  
+
+### 5. 관련 정리 글
+* 충돌 처리 관련 글 정리 : https://gbleem.tistory.com/55
+* Data Table 관련 글 정리 : https://gbleem.tistory.com/59
