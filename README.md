@@ -43,6 +43,7 @@
 ### 3. 상세 설명
 
 ### 4. 시연 영상
+https://drive.google.com/file/d/14Xg3E_JziDq19EtCBZUrwNHbYNUNyNUv/view?usp=drive_link
 
 
 
