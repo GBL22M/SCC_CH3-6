@@ -25,8 +25,6 @@ public:
 
 	UFUNCTION()
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-	/*UFUNCTION()
-	virtual void NotifyActorEndOverlap(AActor* OtherActor) override;*/
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Platform|Components")

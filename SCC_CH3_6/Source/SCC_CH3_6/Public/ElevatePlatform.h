@@ -31,9 +31,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Components")
 	UBoxComponent* BoxCollision;
+	
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Settings")
+	float MoveSpeed;
 
 private:
-	float MoveSpeed;
 	float MaxDistance;
 	bool CanElevate;
 	double StartPositionZ;

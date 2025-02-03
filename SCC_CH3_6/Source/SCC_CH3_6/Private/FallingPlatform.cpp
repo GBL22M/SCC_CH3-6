@@ -78,19 +78,3 @@ void AFallingPlatform::NotifyActorBeginOverlap(AActor* OtherActor)
 		}
 	}
 }
-
-//void AFallingPlatform::NotifyActorEndOverlap(AActor* OtherActor)
-//{
-//	Super::NotifyActorBeginOverlap(OtherActor);
-//
-//	//player 체크
-//	if (!BeforeOverlapped)
-//	{
-//		APlayerCharacter* PlayerCharacter = Cast<APlayerCharacter>(OtherActor);
-//		if (PlayerCharacter)
-//		{
-//			BeforeOverlapped = true;
-//			GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AFallingPlatform::Falling, DelayTime, true);
-//		}
-//	}
-//}

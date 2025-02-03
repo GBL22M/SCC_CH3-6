@@ -21,7 +21,6 @@ void APlatformSpawner::SpawnPlatform()
 {
 	if (!SpawnDataTable)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Spawn Fail"));
 		return;
 	}
 
@@ -40,7 +39,7 @@ void APlatformSpawner::SpawnPlatform()
 				, Row->Rotator
 				, SpawnParams
 			);
-			UE_LOG(LogTemp, Warning, TEXT("Spawned Platform: %s"), *Row->Position.ToString());
 		}
 	}
 }
+

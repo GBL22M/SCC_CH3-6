@@ -22,7 +22,7 @@ AMovingPlatform::AMovingPlatform()
 	{
 		StaticMesh->SetStaticMesh(MeshAsset.Object);
 	}
-}
+}	
 
 void AMovingPlatform::BeginPlay()
 {
@@ -43,7 +43,6 @@ void AMovingPlatform::BeginPlay()
 	{
 		MoveSpeed = MaxMoveSpeed;
 	}
-	//UE_LOG(LogTemp, Warning, TEXT("[%lf %lf %lf]"), StartLocation.X, StartLocation.Y, StartLocation.Z);
 }
 
 void AMovingPlatform::Tick(float DeltaTime)
